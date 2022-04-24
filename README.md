@@ -17,3 +17,13 @@ Place your project somewhere on GitHub
 
 Send us the link to your GitHub project before the interview
 ```
+
+## Usage
+
+```
+python main.py encrypt <infile>
+python main.py decrypt <infile> -k <key>
+
+Optional Parameters:
+    -o, --outfile: an outfile to write the result to
+```
