@@ -70,7 +70,6 @@ def decrypt(infile, outfile, key):
     except OSError:
         pass
 
-
 def parse():
     '''
     Creates a CLI interface and processes passed in arguments
@@ -100,7 +99,6 @@ def parse():
     else:
         print('Error parsing arguments')
         sys.exit(1)
-
 
 if __name__ == '__main__':
     parse()
