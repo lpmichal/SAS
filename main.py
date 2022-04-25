@@ -5,8 +5,6 @@ import sys
 import os
 from cryptography.fernet import Fernet
 
-# To do: Figure out how to validate users' filepaths
-
 def get_filename(filepath):
     '''
     Gets the filename of the filepath
